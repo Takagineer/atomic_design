@@ -9,3 +9,6 @@ export const PrimaryButton = (props) => {
 const SButton = styled(BaseButton)`
   background-color: #40514e;
 `;
+
+// 全てのページで使用できるボタンの共通部分をこのコンポーネントで表現する
+// 十行目既存のコンポーネントに他のっコンポーネントのCSSを追加している。
